@@ -1,0 +1,92 @@
+#main{
+    height: 1800px;
+}
+#action{
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+}
+.actionn{
+    display: block;
+    width: 80%;
+    height: 130px;
+    margin-left: 10%;
+    margin-top:10px;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+
+}
+#pendDepositNum{
+    background-color: #FF006C ;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 50px;
+    width: 80%;
+    height: 130px;
+    text-align: center;
+    color: white;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+#pendwithDrawNum{
+    background-color: #FF006C ;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 50px;
+    width: 80%;
+    height: 130px;
+    text-align: center;
+    color: white;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+@media screen and (min-width: 480px){
+    #action{
+        height: 190px;
+    }
+    .actionn{
+        display: inline-block;
+        width: 30%;
+        height: 180px;
+        margin-left: 2%;
+        margin-top: 10px;
+        box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    }
+    #pendDepositNum{
+        background-color: #FF006C ;
+        margin-top: 60px;
+        margin-left: 10%;
+        border-radius: 50px;
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        color: white;
+        box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    }
+    #pendwithDrawNum{
+        background-color: #FF006C ;
+        margin-top: 60px;
+        margin-left: 10%;
+        border-radius: 50px;
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        color: white;
+        margin-bottom: 100px;
+        box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    }
+}
+
+hr{
+    width: 40%;
+    border-color: white;
+}
+/*Design to make image button*/
+.actionn:hover{
+    box-shadow: none;
+}
+.actionn:active{
+    box-shadow: 1.5px 1.5px 8px 1.5px #FF006C ;
+}
+#withdrawNum{
+    color: white;
+    text-decoration: none;
+}

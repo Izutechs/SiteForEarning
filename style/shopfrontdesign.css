@@ -1,0 +1,90 @@
+body{
+    background-image: url("../img/checkoutback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#cartdetails{
+    background-color: white;
+    width: 100%;
+
+}
+/* .head{
+    display: inline-block;
+    margin-left: 5%;
+} */
+
+#shptitle{
+   width: 100px;
+   height: 100px;
+   float: right;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    
+}
+#txtsearch{
+    width: 50%;
+}
+#search{
+    background-color: #1EB4FF;
+    border: #1EB4FF;
+    border-radius: 2px;
+}
+#search:hover{
+    background-color: #FF006C;
+}
+#main{
+    margin-left: 2.5%;
+    width: 95%;
+    height: 700px;
+    box-shadow: 2px 3px 2px 3px rgb(175, 181, 196);
+    background-color: #1EB4FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stores{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px 2px rgb(202, 196, 196);
+}
+.shplogobox{
+    display: inline;
+}
+.shoplogo{
+    margin-left: 1%;
+    width: 30%;
+    height: 100px;
+    
+}
+.shopdetails{
+    position: relative;
+    top: -38px;
+    width: 65%;
+    height: 100%;
+    
+    display: inline-block;
+    text-align: center;
+   
+    font-size: bolder;
+}
+.shopname{
+    
+    font-size: x-large;
+}
+.shopslogan{
+    font-style: italic;
+    
+}
+.shopcategory{
+    font-size: small;
+}
+.shoplink{
+    text-decoration: none;
+    color: #1EB4FF
+}

@@ -1,0 +1,450 @@
+@import url('https: fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+body{
+   
+    overflow-wrap: break-word;
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    font: 500 14px/30px 'Montserrat', sans-serif;
+    background-color: #FF006C ;
+    
+}
+#top{
+  
+    background-color: #FF006C ;
+    height: auto;
+    overflow-wrap: break-word;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#favi{
+    
+    
+    /* justify-content: center; */
+    /* height: 100px; */
+    width: 100%;
+    /* position: relative;
+    float: left; */
+}
+#logo{
+    
+    /* justify-self: center; */
+    /* border: 10px; */
+    border-color:yellow;
+    width: 20%;
+    /* max-width: 50%; */
+    height: 30%;
+    /* max-height: 100%; */
+    /* margin-left: 25%; */
+   margin-left: 40%;
+}
+/* design for welcome section and dropdown */
+h1{
+    text-align: center;
+    
+}
+#welcome{
+    
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+}
+#welcomeTxt{
+    color: white;
+    padding-top: 1px;
+    /* position: absolute;
+    top: 20%; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    
+}
+.dropbtn{
+    background-color: white;
+    position: relative;
+    opacity: 90%;
+    right: 0%;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 900;
+}
+.dropDownMenu{
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dropDownContent{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #FF006C ;;
+    min-width: 80vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropDownContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropDownContent a:hover{
+    background-color: white;
+}
+.dropDownMenu:hover .dropDownContent{
+    display: block;
+}
+.dropDownMenu:hover .dropbtn{
+    background-color: #FF006C ;
+    color: white;
+}
+
+/* sign Buttons design */
+#coverSign{
+   
+    height: 100px;
+}
+.signSectionl{
+    position: relative;
+    display: inline-block;
+    left: 20%;
+    font-size: 150%;
+}
+.signSectionr{
+    position: relative;
+    display: inline-block;
+    right: 20%;
+    font-size: 150%;
+}
+.signButton{
+    background-color: black;
+    
+    color: white;
+    margin-top: 20px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding: 1vw 6vw; 
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.signButton:active{
+    background-color: rgb(255, 72, 0);
+    box-shadow: none;
+    transform: translateY(4px);
+}
+#signup{
+    background-color: #F3703A;
+    color: white;
+    font-weight: bolder;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+#signin{
+    background-color: white;
+    color: #344961;
+    font-weight: bolder;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+#signup:hover{
+    background-color: white;
+    color: #F3703A;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+#signin:hover{
+    background-color: #344961;
+    color: white;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+}
+/* main section of homepage design */
+#main{
+    background-color: white;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    justify-items: center;
+    
+}
+#mainin{
+    background-color: white;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    border-radius: 40px;
+    justify-items: center;
+    
+}
+#briefing{
+    position: relative;
+    margin-left: 10%;
+    top: 2px;
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    border-radius: 50px;
+}
+#eatspace{
+    width: 100%;
+    height: 250px;
+}
+/*Design For How section*/
+#how{
+    
+    background-color: white;
+    text-align: left;
+    height: 200px;
+    width: 100%;
+    box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+    
+}
+#service{
+    /* background-color: rgb(243, 238, 232); */
+    width: 100%;
+    text-align: center;
+}
+hr.tr{
+    width: 7%;
+    
+    background-color: #FF006C ;
+    border-style: solid;
+    border-color: #FF006C;
+    border-width: 3px;
+    border-radius: 50px;
+    
+}
+
+.trustimage{
+    width: 50%;
+   
+}
+.trust{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+}
+.profit{
+    color: #344961;
+    font-weight: bold;
+}
+.prof{
+    color: #344961;
+}
+/*Design For Stat section*/
+#stats{
+    
+    background-color: #344961;
+    color: white;
+    width: 100%;
+    
+    
+    display: flex;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Design For Footer*/
+nav{
+    
+    background-color:  #FF006C;
+    /* justify-items: center; */
+    width: 100%;
+}
+.useful{
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    
+}
+.usehead{
+    margin-left: 2%;
+}
+
+
+#bottom{
+    background-image: url("./Files/Footerlanding.png");
+    height: 100%;
+    overflow-wrap: break-word;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* p#statNote{
+    margin-top: 3%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50%;
+} */
+
+/* @media screen and (max-width: 200px){
+    #main{
+        background-color: white;
+        box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+        width: 90%;
+        height: 1100px;
+        margin-left: 5%;
+        justify-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+}
+@media screen and (max-width: 220px){
+    #main{
+        background-color: white;
+        box-shadow:  1.5px 1.5px 8px 1.5px  grey;
+        width: 90%;
+        height: 1150px;
+        margin-left: 5%;
+        justify-items: center;
+        
+    }
+    
+} */
+/* @media screen and (max-width: 763px){
+#stats{
+    background-color: #F3703A;
+    color: white;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+}
+}
+@media screen and (max-width: 599px){
+    #stats{
+        background-color: #F3703A;
+        color: white;
+        width: 90%;
+        height: 600px;
+        margin-left: 5%;
+        display: flex;
+        text-align: center;
+    }
+    }
+    @media screen and (max-width: 410px){
+        #stats{
+            background-color: #F3703A;
+            color: white;
+            width: 90%;
+            height: 800px;
+            margin-left: 5%;
+            display: flex;
+            text-align: center;
+        }
+        }
+        @media screen and (max-width: 316px){
+            #stats{
+                background-color: #F3703A;
+                color: white;
+                width: 90%;
+                height: 1000px;
+                margin-left: 5%;
+                display: flex;
+                text-align: center;
+            }
+            }
+            @media screen and (max-width: 262px){
+                #stats{
+                    background-color: #F3703A;
+                    color: white;
+                    width: 90%;
+                    height: 1600px;
+                    margin-left: 5%;
+                    display: flex;
+                    text-align: center;
+                }
+                }
+@media screen and (max-width: 186px){
+                    #stats{
+                        overflow-wrap: break-word;
+                        background-color: #F3703A;
+                        color: white;
+                        width: 90%;
+                        height: 2000px;
+                        margin-left: 5%;
+                        display: flex;
+                        text-align: center;
+                    }
+                    } */
+@media screen and (max-width: 500px){
+    #briefing{
+         position: relative;
+         top: 5%;
+             height: 300px;
+         }
+    #main{
+        height: 350px;
+    }
+    #mainin{
+        height: 350px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #stats{
+        margin-top: 200px;
+        margin-left: 0%;
+        width: 100%;
+        
+    }
+    footer{
+        position: relative;
+        top:10%;
+
+    }
+    .useful{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        background-color: blue;
+        margin-top: 2%;
+    }
+    .footnavEl{
+        display: block;
+        position: relative;
+        left: 2%;
+        /* font-weight: bold; */
+        /* margin: 10px; */
+        
+    }
+                    }
+@media screen and (max-width: 533px){
+    #service{
+        
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    hr.tr{
+        width: 20%;
+        color: white;
+    }
+    .trustimage{
+        width: 50%;
+       
+    }
+    .trust{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+}
+
+
+@media screen and (max-width: 660px){
+    .signSectionl{
+       
+        left: 1%;
+    }
+    .signSectionr{
+        
+        right: 1%;
+    }
+
+}
